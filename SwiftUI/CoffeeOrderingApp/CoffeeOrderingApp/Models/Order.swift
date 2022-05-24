@@ -1,0 +1,16 @@
+//
+//  Order.swift
+//  CoffeeOrderingApp
+//
+//  Created by Vineet Kumar on 28/09/20.
+//
+
+import Foundation
+
+struct Order: Codable {
+    
+    let name: String
+    let size: String
+    let coffeeName: String
+    let total: Double
+}
